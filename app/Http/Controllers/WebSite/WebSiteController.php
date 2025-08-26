@@ -9,61 +9,61 @@ class WebSiteController extends Controller
 {
     public function alumni()
     {
-        return view('pages.website.alumni');
+        return view('website.alumni');
     }
 
     public function apply_now()
     {
-        return view('pages.website.apply-now');
+        return view('website.apply-now');
     }
 
     public function campus_life()
     {
-        return view('pages.website.campus-life');
+        return view('website.campus-life');
     }
 
     public function contacts()
     {
-        return view('pages.website.contacts');
+        return view('website.contacts');
     }
 
     public function current_students()
     {
-        return view('pages.website.current-students');
+        return view('website.current-students');
     }
 
     public function events()
     {
-        return view('pages.website.events');
+        return view('website.events');
     }
 
     public function faculty_and_staff()
     {
-        return view('pages.website.faculty-and-staff');
+        return view('website.faculty-and-staff');
     }
 
     public function future_students()
     {
-        return view('pages.website.future-students');
+        return view('website.future-students');
     }
 
     public function help()
     {
-        return view('pages.website.help');
+        return view('website.help');
     }
 
     public function programs()
     {
-        return view('pages.website.programs');
+        return view('website.programs');
     }
 
     public function research()
     {
-        return view('pages.website.research');
+        return view('website.research');
     }
 
     public function signin()
     {
-        return view('pages.website.signin');
+        return view('website.signin');
     }
 }
