@@ -4,7 +4,7 @@
     <head>
         <meta name="csrf_token" content="{{ csrf_token() }}">
         <!-- Title -->
-        <title>@yield('title') | Unify</title>
+        <title>@yield('title') | WebSakola</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">

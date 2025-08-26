@@ -1,6 +1,6 @@
 @extends('layouts.admin.master')
 @section('title')
-    @lang('translation.starter')
+    @lang('translation.dashboards')
 @endsection
 @section('content')
     <div class="row">
