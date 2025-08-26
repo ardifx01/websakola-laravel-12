@@ -223,6 +223,7 @@ return [
     "job-categories" => "Job Categories",
     "api-key" => "API Key",
     "privacy-policy" => "Privacy Policy",
+    "term-conditions" => "Term & Conditions",
     "hot" => "Hot",
 ];
 ?>

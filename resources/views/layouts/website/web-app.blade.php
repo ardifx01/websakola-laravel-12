@@ -12,7 +12,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{{ URL::asset('build/assets/img/icons/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ URL::asset('build/images/icon-blue.png') }}">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400"

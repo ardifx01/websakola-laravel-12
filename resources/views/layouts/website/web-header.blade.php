@@ -16,7 +16,7 @@
                     </li>
 
                     <!-- Language -->
-                    <li class="list-inline-item g-pos-rel ml-lg-auto">
+                    {{-- <li class="list-inline-item g-pos-rel ml-lg-auto">
                         <a id="language-dropdown-invoker"
                             class="d-none d-sm-flex align-items-center u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-pl-0 g-pl-10--lg g-pr-10 g-py-15"
                             href="#" aria-controls="language-dropdown" aria-haspopup="true" aria-expanded="false"
@@ -95,11 +95,11 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <!-- End Language -->
 
                     <!-- Jump To -->
-                    <li class="list-inline-item g-pos-rel">
+                    <li class="list-inline-item g-pos-rel ml-lg-auto">
                         <a id="jump-to-dropdown-invoker"
                             class="d-block d-lg-none u-link-v5 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 text-uppercase g-py-7"
                             href="#" aria-controls="jump-to-dropdown" aria-haspopup="true" aria-expanded="false"
@@ -240,9 +240,9 @@
                 <!-- End Logo -->
 
                 <!-- Responsive Toggle Button -->
-                <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0"
-                    type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar"
-                    data-toggle="collapse" data-target="#navBar">
+                <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0" type="button"
+                    aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
+                    data-target="#navBar">
                     <span class="hamburger hamburger--slider g-px-0">
                         <span class="hamburger-box">
                             <span class="hamburger-inner"></span>

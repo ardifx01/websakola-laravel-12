@@ -9,7 +9,7 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ URL::asset('build/images/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ URL::asset('build/images/icon-blue.png') }}">
         @include('layouts.admin.head-css')
     </head>
 
