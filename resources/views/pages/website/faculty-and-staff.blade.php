@@ -1,6 +1,6 @@
 @extends('layouts.website.web-app')
 @section('title')
-    Education Apply Page
+    Faculty and Staff
 @endsection
 @section('css')
     <!-- CSS Implementing Plugins -->

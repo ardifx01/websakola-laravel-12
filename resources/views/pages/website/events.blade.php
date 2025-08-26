@@ -1,6 +1,6 @@
 @extends('layouts.website.web-app')
 @section('title')
-    Education Apply Page
+    Events
 @endsection
 @section('css')
     <!-- CSS Implementing Plugins -->

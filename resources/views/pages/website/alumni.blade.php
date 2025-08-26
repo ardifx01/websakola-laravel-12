@@ -1,6 +1,6 @@
 @extends('layouts.website.web-app')
 @section('title')
-    Education Apply Page
+    Alumni
 @endsection
 @section('css')
     <!-- CSS Implementing Plugins -->
@@ -89,7 +89,7 @@
                             x="0px" y="0px" viewBox="0 0 73.5 20" enable-background="new 0 0 73.5 20" xml:space="preserve">
                             <g>
                                 <path fill="none" stroke="#9a69cb" stroke-width="3" stroke-miterlimit="10" d="M0,1c9.2,0,9.2,18,18.4,18c9.2,0,9.2-18,18.4-18
-                                                          c9.2,0,9.2,18,18.4,18S64.3,1,73.5,1" />
+                                                                  c9.2,0,9.2,18,18.4,18S64.3,1,73.5,1" />
                             </g>
                         </svg>
                         <!-- End SVG Square #4 -->
