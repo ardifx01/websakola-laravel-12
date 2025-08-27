@@ -6,19 +6,23 @@
                 <div class="navbar-brand-box horizontal-logo">
                     <a href="index" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="{{ URL::asset('build/images/logo-sm.png') }}" alt="" height="22">
+                            <img src="{{ URL::asset('build/images/logo-websakola-sm.png') }}" alt=""
+                                height="24">
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ URL::asset('build/images/logo-dark.png') }}" alt="" height="17">
+                            <img src="{{ URL::asset('build/images/logo-websakola-dark.png') }}" alt=""
+                                height="24">
                         </span>
                     </a>
 
                     <a href="index" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="{{ URL::asset('build/images/logo-sm.png') }}" alt="" height="22">
+                            <img src="{{ URL::asset('build/images/logo-websakola-sm.png') }}" alt=""
+                                height="24">
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ URL::asset('build/images/logo-light.png') }}" alt="" height="17">
+                            <img src="{{ URL::asset('build/images/logo-websakola-light.png') }}" alt=""
+                                height="24">
                         </span>
                     </a>
                 </div>
