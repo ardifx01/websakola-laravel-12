@@ -1,7 +1,7 @@
 <!-- Footer -->
-<footer class="g-bg-secondary g-pt-100 g-pb-50">
+<footer class="g-bg-secondary g-pt-25 g-pb-25">
     <div class="container">
-        <div class="row g-mb-40">
+        {{-- <div class="row g-mb-10">
             <div class="col-6 col-md-3 g-mb-20">
                 <!-- Footer Links -->
                 <ul class="list-unstyled">
@@ -69,18 +69,18 @@
                 </ul>
                 <!-- End Footer Links -->
             </div>
-        </div>
+        </div> --}}
 
         <!-- Footer Copyright -->
         <div class="row justify-content-lg-center align-items-center text-center">
-            <div class="col-sm-6 col-md-4 col-lg-3 order-md-3 g-mb-30">
+            <div class="col-sm-6 col-md-4 col-lg-3 order-md-3 g-mb-15">
                 <a class="u-link-v5 g-color-text g-color-primary--hover" href="#">
                     <i class="align-middle mr-2 icon-real-estate-027 u-line-icon-pro"></i>
                     Kingston, Ontario, Canada
                 </a>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3 order-md-2 g-mb-30">
+            <div class="col-sm-6 col-md-4 col-lg-3 order-md-2 g-mb-15">
                 <!-- Social Icons -->
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item g-mx-2">
@@ -117,7 +117,7 @@
                 <!-- End Social Icons -->
             </div>
 
-            <div class="col-md-4 col-lg-3 order-md-1 g-mb-30">
+            <div class="col-md-4 col-lg-3 order-md-1 g-mb-15">
                 <p class="g-color-text mb-0">University of Unify - Since 1978</p>
             </div>
         </div>
@@ -132,8 +132,7 @@
        "bottom": 15,
        "right": 15
      }'
-    data-offset-top="400" data-compensation="#js-header" data-show-effect="slideInUp"
-    data-hide-effect="slideInDown">
+    data-offset-top="400" data-compensation="#js-header" data-show-effect="slideInUp" data-hide-effect="slideInDown">
     <i class="hs-icon hs-icon-arrow-top"></i>
 </a>
 <!-- End Go to Top -->

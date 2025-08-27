@@ -146,15 +146,13 @@
                                             Log in
                                         </a>
 
-                                        @if (Route::has('register'))
+                                        {{-- @if (Route::has('register'))
                                             <a href="{{ route('register') }}"
                                                 class="nav-link g-color-white g-bg-primary g-bg-primary-light-v1--hover g-font-size-default">
                                                 Register
                                             </a>
-                                        @endif
+                                        @endif --}}
                                     @endauth
-                                    {{--  <a class="nav-link g-color-white g-bg-primary g-bg-primary-light-v1--hover g-font-size-default"
-                                        href="page-signin-1.html">Sign in</a> --}}
                                 </li>
                             @endif
                         </ul>
@@ -191,12 +189,12 @@
                                     Log in
                                 </a>
 
-                                @if (Route::has('register'))
+                                {{-- @if (Route::has('register'))
                                     <a href="{{ route('register') }}"
                                         class="u-link-v5 u-shadow-v19 g-color-white--hover g-bg-white g-bg-primary--hover g-font-size-12 text-uppercase g-rounded-20 g-px-18 g-py-8 g-ml-10">
                                         Register
                                     </a>
-                                @endif
+                                @endif --}}
                             @endauth
                         </li>
                     @endif

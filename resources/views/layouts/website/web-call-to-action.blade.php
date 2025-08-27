@@ -1,17 +1,17 @@
 <!-- Call to Action -->
 <div id="stickyblock-end" class="g-pos-rel">
     <div class="g-pos-rel">
-        <div class="container text-center g-pt-100 g-pb-50">
+        <div class="container text-center g-pt-25 g-pb-50">
             <!-- Heading -->
-            <div class="g-max-width-645 mx-auto g-mb-40">
+            {{-- <div class="g-max-width-645 mx-auto g-mb-40">
                 <h2 class="h1 mb-3">Join Unify University</h2>
                 <p>Our strategy is simple: to create a place where the best researchers and most promising students can
                     achieve their full potential.</p>
-            </div>
+            </div> --}}
             <!-- End Heading -->
 
-            <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
-                href="page-apply-1.html">Apply Now</a>
+            {{-- <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                href="page-apply-1.html">Apply Now</a> --}}
 
             <!-- SVG Shape -->
             <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
             </svg>
             <!-- End SVG Shape -->
 
-            <span class="align-middle g-color-primary mx-1">or</span>
+            {{-- <span class="align-middle g-color-primary mx-1">or</span> --}}
 
             <!-- SVG Shape -->
             <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@
             </svg>
             <!-- End SVG Shape -->
 
-            <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
-                href="page-contacts-1.html">Contact Us</a>
+            {{-- <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                href="page-contacts-1.html">Contact Us</a> --}}
         </div>
 
         <!-- SVG Background Shape -->

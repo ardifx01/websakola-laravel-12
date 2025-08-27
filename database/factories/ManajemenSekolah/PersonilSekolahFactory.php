@@ -23,36 +23,33 @@ class PersonilSekolahFactory extends Factory
 
     public function definition(): array
     {
-        // Jenis kelamin
         $gender = $this->faker->randomElement(['Laki-laki', 'Perempuan']);
-
-        // Tanggal lahir
         $tanggalLahir = $this->faker->dateTimeBetween('-60 years', '-25 years');
         $tglLahirStr = $tanggalLahir->format('Ymd');
 
-        // Tahun masuk kerja
         $tahunMasuk = ((int)$tanggalLahir->format('Y')) + rand(20, 25);
-        $bulanMasuk = str_pad((string)rand(1, 12), 2, '0', STR_PAD_LEFT);
+        $bulanMasuk = str_pad(rand(1, 12), 2, '0', STR_PAD_LEFT);
         $thnBulanMasuk = $tahunMasuk . $bulanMasuk;
 
-        // Kode gender
         $kodeGender = $gender === 'Laki-laki' ? '1' : '2';
-
-        // Nomor urut 3 digit random
         $nomorUrut = str_pad(rand(1, 999), 3, '0', STR_PAD_LEFT);
-
-        // Format NIP
         $nip = $tglLahirStr . ' ' . $thnBulanMasuk . ' ' . $kodeGender . ' ' . $nomorUrut;
 
-        // Nama lengkap
-        $namaLengkap = $this->faker->name($gender === 'Laki-laki' ? 'male' : 'female');
+        $namaLengkap = $this->faker->firstName($gender === 'Laki-laki' ? 'male' : 'female')
+            . ' ' . $this->faker->lastName();
+
+        // simpan dulu counter
+        $idPersonil = 'pgw_' . str_pad(self::$counter, 4, '0', STR_PAD_LEFT);
+
+        // baru increment
+        self::$counter++;
 
         return [
-            'id_personil'   => 'pgw_' . str_pad(self::$counter, 4, '0', STR_PAD_LEFT), // pgw_0001 dst
+            'id_personil'   => $idPersonil,
             'nip'           => $nip,
-            'gelardepan'    => $this->faker->optional()->title(),
+            'gelardepan'    => null,
             'namalengkap'   => $namaLengkap,
-            'gelarbelakang' => $this->faker->optional()->suffix(),
+            'gelarbelakang' => $this->faker->optional()->randomElement(['S.Pd', 'M.Pd', 'Ph.D']),
             'jeniskelamin'  => $gender,
             'jenispersonil' => $this->faker->randomElement(['Guru', 'Tata Usaha']),
             'tempatlahir'   => $this->faker->city(),
@@ -70,12 +67,10 @@ class PersonilSekolahFactory extends Factory
             'alamat_kec'    => $this->faker->city(),
             'alamat_kab'    => $this->faker->city(),
             'alamat_prov'   => $this->faker->state(),
-            'alamat_kodepos' => $this->faker->postcode(),
+            'alamat_kodepos'=> $this->faker->postcode(),
             'bg_profil'     => null,
             'motto_hidup'   => $this->faker->sentence(),
         ];
-
-        // increment setelah return
-        self::$counter++;
     }
+
 }

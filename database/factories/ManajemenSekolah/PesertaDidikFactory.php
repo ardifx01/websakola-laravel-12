@@ -26,7 +26,9 @@ class PesertaDidikFactory extends Factory
         $gender = $this->faker->randomElement(['Laki-laki', 'Perempuan']);
 
         // Nama lengkap
-        $namaLengkap = $this->faker->name($gender === 'Laki-laki' ? 'male' : 'female');
+        $namaLengkap = $this->faker->firstName($gender === 'Laki-laki' ? 'male' : 'female')
+             . ' '
+             . $this->faker->lastName();
 
         // Tanggal lahir siswa (7–18 tahun)
         $tanggalLahir = $this->faker->dateTimeBetween('-18 years', '-7 years');

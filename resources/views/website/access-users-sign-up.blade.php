@@ -23,7 +23,7 @@
                     </span>
                     <input
                         class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                        type="email" placeholder="john@gmail.com">
+                        type="email">
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                     </span>
                     <input
                         class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                        type="password" placeholder="*********">
+                        type="password">
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                     </span>
                     <input
                         class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                        type="password" placeholder="*********">
+                        type="password">
                 </div>
             </div>
 
