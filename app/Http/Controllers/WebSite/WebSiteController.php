@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class WebSiteController extends Controller
 {
+    public function team()
+    {
+        return view('website.team');
+    }
     public function alumni()
     {
         return view('website.alumni');
