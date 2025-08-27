@@ -4,25 +4,25 @@
             <div class="d-flex">
                 <!-- LOGO -->
                 <div class="navbar-brand-box horizontal-logo">
-                    <a href="index" class="logo logo-dark">
+                    <a href="/dashboard" class="logo logo-dark">
                         <span class="logo-sm">
                             <img src="{{ URL::asset('build/images/logo-websakola-sm.png') }}" alt=""
                                 height="24">
                         </span>
                         <span class="logo-lg">
                             <img src="{{ URL::asset('build/images/logo-websakola-dark.png') }}" alt=""
-                                height="24">
+                                height="30">
                         </span>
                     </a>
 
-                    <a href="index" class="logo logo-light">
+                    <a href="/dashboard" class="logo logo-light">
                         <span class="logo-sm">
                             <img src="{{ URL::asset('build/images/logo-websakola-sm.png') }}" alt=""
                                 height="24">
                         </span>
                         <span class="logo-lg">
                             <img src="{{ URL::asset('build/images/logo-websakola-light.png') }}" alt=""
-                                height="24">
+                                height="30">
                         </span>
                     </a>
                 </div>
