@@ -1,5 +1,5 @@
 <div class="dropdown topbar-head-dropdown ms-1 header-item">
-    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle"
+    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle shadow-none"
         id="page-header-cart-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"
         aria-expanded="false">
         <i class='bx bx-shopping-bag fs-22'></i>
@@ -36,7 +36,7 @@
                             class="me-3 rounded-circle avatar-sm p-2 bg-light" alt="user-pic">
                         <div class="flex-grow-1">
                             <h6 class="mt-0 mb-1 fs-14">
-                                <a href="/apps_ecommerce_product_details" class="text-reset">Branded
+                                <a href="apps-ecommerce-product-details" class="text-reset">Branded
                                     T-Shirts</a>
                             </h6>
                             <p class="mb-0 fs-12 text-muted">
@@ -47,7 +47,8 @@
                             <h5 class="m-0 fw-normal">$<span class="cart-item-price">320</span></h5>
                         </div>
                         <div class="ps-2">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn"><i
+                            <button type="button"
+                                class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn shadow-none"><i
                                     class="ri-close-fill fs-16"></i></button>
                         </div>
                     </div>
@@ -59,7 +60,7 @@
                             class="me-3 rounded-circle avatar-sm p-2 bg-light" alt="user-pic">
                         <div class="flex-grow-1">
                             <h6 class="mt-0 mb-1 fs-14">
-                                <a href="/apps_ecommerce_product_details" class="text-reset">Bentwood
+                                <a href="apps-ecommerce-product-details" class="text-reset">Bentwood
                                     Chair</a>
                             </h6>
                             <p class="mb-0 fs-12 text-muted">
@@ -70,7 +71,8 @@
                             <h5 class="m-0 fw-normal">$<span class="cart-item-price">89</span></h5>
                         </div>
                         <div class="ps-2">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn"><i
+                            <button type="button"
+                                class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn shadow-none"><i
                                     class="ri-close-fill fs-16"></i></button>
                         </div>
                     </div>
@@ -82,7 +84,7 @@
                             class="me-3 rounded-circle avatar-sm p-2 bg-light" alt="user-pic">
                         <div class="flex-grow-1">
                             <h6 class="mt-0 mb-1 fs-14">
-                                <a href="/apps_ecommerce_product_details" class="text-reset">
+                                <a href="apps-ecommerce-product-details" class="text-reset">
                                     Borosil Paper Cup</a>
                             </h6>
                             <p class="mb-0 fs-12 text-muted">
@@ -93,7 +95,8 @@
                             <h5 class="m-0 fw-normal">$<span class="cart-item-price">750</span></h5>
                         </div>
                         <div class="ps-2">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn"><i
+                            <button type="button"
+                                class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn shadow-none"><i
                                     class="ri-close-fill fs-16"></i></button>
                         </div>
                     </div>
@@ -105,7 +108,7 @@
                             class="me-3 rounded-circle avatar-sm p-2 bg-light" alt="user-pic">
                         <div class="flex-grow-1">
                             <h6 class="mt-0 mb-1 fs-14">
-                                <a href="/apps_ecommerce_product_details" class="text-reset">Gray
+                                <a href="apps-ecommerce-product-details" class="text-reset">Gray
                                     Styled T-Shirt</a>
                             </h6>
                             <p class="mb-0 fs-12 text-muted">
@@ -116,7 +119,8 @@
                             <h5 class="m-0 fw-normal">$ <span class="cart-item-price">1250</span></h5>
                         </div>
                         <div class="ps-2">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn"><i
+                            <button type="button"
+                                class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn shadow-none"><i
                                     class="ri-close-fill fs-16"></i></button>
                         </div>
                     </div>
@@ -128,7 +132,7 @@
                             class="me-3 rounded-circle avatar-sm p-2 bg-light" alt="user-pic">
                         <div class="flex-grow-1">
                             <h6 class="mt-0 mb-1 fs-14">
-                                <a href="/apps_ecommerce_product_details" class="text-reset">Stillbird
+                                <a href="apps-ecommerce-product-details" class="text-reset">Stillbird
                                     Helmet</a>
                             </h6>
                             <p class="mb-0 fs-12 text-muted">
@@ -139,7 +143,8 @@
                             <h5 class="m-0 fw-normal">$<span class="cart-item-price">990</span></h5>
                         </div>
                         <div class="ps-2">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn"><i
+                            <button type="button"
+                                class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn shadow-none"><i
                                     class="ri-close-fill fs-16"></i></button>
                         </div>
                     </div>
@@ -154,7 +159,7 @@
                 </div>
             </div>
 
-            <a href="/apps_ecommerce_checkout" class="btn btn-success text-center w-100">
+            <a href="apps-ecommerce-checkout" class="btn btn-success text-center w-100">
                 Checkout
             </a>
         </div>

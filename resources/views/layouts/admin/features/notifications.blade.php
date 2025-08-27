@@ -1,5 +1,5 @@
 <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
-    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle"
+    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle shadow-none"
         id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"
         aria-expanded="false">
         <i class='bx bx-bell fs-22'></i>

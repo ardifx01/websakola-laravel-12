@@ -1,6 +1,6 @@
 <div class="dropdown topbar-head-dropdown ms-1 header-item">
-    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" data-bs-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
+    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle shadow-none"
+        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class='bx bx-category-alt fs-22'></i>
     </button>
     <div class="dropdown-menu dropdown-menu-lg p-0 dropdown-menu-end">
@@ -10,7 +10,7 @@
                     <h6 class="m-0 fw-semibold fs-15"> Web Apps </h6>
                 </div>
                 <div class="col-auto">
-                    <a href="#!" class="btn btn-sm btn-soft-info"> View All Apps
+                    <a href="#!" class="btn btn-sm btn-soft-info shadow-none"> View All Apps
                         <i class="ri-arrow-right-s-line align-middle"></i></a>
                 </div>
             </div>

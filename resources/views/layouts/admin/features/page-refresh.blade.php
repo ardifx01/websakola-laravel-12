@@ -11,12 +11,15 @@
 </style>
 
 <div class="ms-1 header-item d-none d-sm-flex">
-    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" onclick="startRefresh()">
+    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle shadow-none"
+        onclick="startRefresh()">
         <i id="refreshIcon" class="ri-refresh-line fs-22"></i>
     </button>
 </div>
 <div class="ms-1 header-item d-none d-sm-flex">
-    <x-btn-action class="btn-topbar btn-ghost-secondary rounded-circle" href="/" icon="ri-home-smile-2-line fs-22" />
+    <a href="/" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle shadow-none">
+        <i class="ri-home-smile-2-line fs-22"></i>
+    </a>
 </div>
 
 <script>
