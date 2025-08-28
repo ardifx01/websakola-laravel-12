@@ -7,9 +7,8 @@
 @endsection
 @section('content')
     <!-- Signin Form -->
-    <div class="g-bg-img-hero g-bg-pos-top-center"
-        style="background-image: url({{ URL::asset('build/assets/include/svg/svg-bg2.svg') }});">
-        <div class="container g-pt-100 g-pb-100 g-pb-130--lg">
+    <div class="g-bg-img-hero" style="background-image: url({{ URL::asset('build/assets/include/svg/svg-bg1.svg') }});">
+        <div class="container g-pt-100 g-pb-100 g-pb-130--lg g-mb-100--lg">
             <div class="g-pos-rel">
                 <div class="row">
                     <div class="col-md-6">

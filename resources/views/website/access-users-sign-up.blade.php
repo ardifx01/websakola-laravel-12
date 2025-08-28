@@ -2,6 +2,9 @@
     <!-- Signup -->
     <div id="signup" style="display: none;">
         <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+            <div class="u-heading-v6-2 text-center text-uppercase g-mb-20">
+                <h2 class="h3 u-heading-v6__title g-brd-primary g-color-text-light-v1 g-font-weight-600">Sign Up</h2>
+            </div>
             <div class="g-mb-20">
                 <label class="g-color-text-light-v1 g-font-weight-500">Full name</label>
                 <div class="input-group">
