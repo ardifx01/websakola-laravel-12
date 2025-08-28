@@ -1,3 +1,11 @@
+<div class="u-outer-spaces-helper"></div>
+
+<div class="u-divider u-divider-solid u-divider-center g-bg-secondary g-color-primary w-100 mx-auto g-py-0">
+    <a class="js-go-to" href="#"data-compensation="#js-header">
+        <i
+            class="hs-icon hs-icon-arrow-top u-divider__icon g-color-white g-color-white--hover g-bg-primary g-bg-main--hover g-bg-main--focus rounded-circle "></i>
+    </a>
+</div>
 <!-- Footer -->
 <footer class="g-bg-secondary g-pt-25 g-pb-25">
     <div class="container">
@@ -127,12 +135,12 @@
 <!-- End Footer -->
 
 <!-- Go to Top -->
-<a class="js-go-to u-go-to-v1 u-shadow-v32 g-width-40 g-height-40 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-bg-main--focus g-font-size-12 rounded-circle"
+{{-- <a class="js-go-to u-go-to-v1 u-shadow-v32 g-width-40 g-height-40 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-bg-main--focus g-font-size-12 rounded-circle"
     href="#" data-type="fixed" data-position='{
        "bottom": 15,
        "right": 15
      }'
     data-offset-top="400" data-compensation="#js-header" data-show-effect="slideInUp" data-hide-effect="slideInDown">
     <i class="hs-icon hs-icon-arrow-top"></i>
-</a>
+</a> --}}
 <!-- End Go to Top -->

@@ -16,4 +16,4 @@ Route::get('/help', [WebSiteController::class, 'help'])->name('help');
 Route::get('/programs', [WebSiteController::class, 'programs'])->name('programs');
 Route::get('/research', [WebSiteController::class, 'research'])->name('research');
 Route::get('/signin', [WebSiteController::class, 'signin'])->name('signin');
-Route::get('/team', [WebSiteController::class, 'team'])->name('team');
+Route::get('/other', [WebSiteController::class, 'other'])->name('other');

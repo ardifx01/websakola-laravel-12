@@ -191,8 +191,8 @@
         </li>
         <li class="nav-item">
             <a class="nav-link g-color-primary--hover g-font-size-15 g-font-size-17--xl g-pl-15--lg g-pr-0--lg g-py-10 g-py-30--lg"
-                href="team">
-                Team
+                href="other">
+                Other
             </a>
         </li>
     </ul>

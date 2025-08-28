@@ -341,7 +341,7 @@
     <!-- End Admission Heading -->
 
     <!-- Notice -->
-    <div class="g-bg-secondary">
+    <div class="g-bg-secondary g-mb-100--lg">
         <div class="container-fluid g-px-8 g-pt-8">
             <!-- Notice Carousel -->
             <div class="js-carousel u-carousel-v5 g-mx-minus-4" data-slides-show="4" data-slides-scroll="1"
