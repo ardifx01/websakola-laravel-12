@@ -37,7 +37,7 @@ class UsersSeeder extends Seeder
         $guruMaster->update(['aktif' => 'aktif']);
         $userMaster = User::create([
             'name'        => $guruMaster->namalengkap,
-            'email'       => $guruMaster->kontak_email ?? strtolower(str_replace(' ', '.', $guruMaster->namalengkap)) . '@example.com',
+            'email'       => 'superadmin@example.com',
             'password'    => Hash::make('password'),
             'personil_id' => $guruMaster->id,
         ]);
